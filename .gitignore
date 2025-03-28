@@ -1,0 +1,51 @@
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Database files
+/database/*.sqlite
+/database/*.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Cache and temporary files
+/cache/
+*.cache
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+*.swp
+*.swo
+.phpunit.result.cache
+
+# Build files
+/build/
+/dist/
+
+# Coverage reports
+/coverage/
+
+# Local development files
+*.local
+*.local.php 
